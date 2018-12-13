@@ -19,8 +19,10 @@
 .img-display img
 {
   height: 35vh;
-  width: 45vh;
+  width: 50vh;
   padding-top: 5vh;
+  text-align: center;
+  padding-left: 3vh;
 }
 .amenity-section{
   display: grid;
