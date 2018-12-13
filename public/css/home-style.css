@@ -1,0 +1,67 @@
+#cover-photo{
+  background: url('../images/cover.jpg') center center no-repeat;
+  height: 65vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  }
+
+#input-tab
+{
+  justify-content: center;
+  background: rgba(0,0,0,0.5);
+  margin: 20vh 65vh 20vh 65vh;
+  padding: 2vh 2vh 2vh 2vh;
+    box-shadow:0 5px 65px  0 rgba(0,0,0,0.5);
+}
+#input-tab h3
+{
+  text-align: center;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  color: white;
+}
+#input-tab>form
+{
+  padding-top: 3.5vh;
+
+}
+.featured
+{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  align-items: center;
+  grid-gap: 1em;
+
+}
+
+#main-display h1
+{
+   text-align: center;
+   margin-top: 3vh;
+   margin-bottom: 3vh;
+}
+.featured>div
+{
+  padding: 1em;
+  background-color: #FFF5EE;
+  cursor: pointer;
+  box-shadow:0 5px 15px  0 rgba(0,0,0,0.5);
+}
+.featured>div>h4
+{
+  text-align: center;
+}
+.featured>div>p
+{
+  text-align: center;
+}
+#footer
+{
+  font-family: 'Lato', sans-serif;
+  background:#222;
+  margin-top: 3vh;
+  color: white;
+  text-align: center;
+  padding-bottom: 3vh;
+}

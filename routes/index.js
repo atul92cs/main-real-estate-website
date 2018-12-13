@@ -1,0 +1,21 @@
+exports.home=(req,res)=>{
+  res.render('home.ejs');
+};
+exports.property1=(req,res)=>{
+  res.render('property1.ejs');
+};
+exports.property2=(req,res)=>{
+  res.render('property2.ejs');
+};
+exports.property3=(req,res)=>{
+  res.render('property3.ejs');
+};
+exports.property4=(req,res)=>{
+  res.render('property4.ejs');
+};
+exports.property5=(req,res)=>{
+  res.render('property5.ejs');
+};
+exports.property6=(req,res)=>{
+  res.render('property6.ejs');
+};
